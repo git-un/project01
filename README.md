@@ -9,4 +9,4 @@ SI507F17_project1_cards.py imports **helper_functions.py**
 * deal_hand method does not show index error for -53 when there are only 52 cards. At the same time, the method deal_hand of Deck class does not accept an integer value greater tha 26.
 * Card constructor accepts 0 as a valid rank implying 0 of Diamonds.
 
-**Requirements.txt** contains modules that have been used.
+**Requirements.txt** contains a list of items to be installed using pip install like so.
