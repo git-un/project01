@@ -4,8 +4,8 @@ from SI507F17_project1_cards import *
 
 class TestCards(unittest.TestCase):
     def test_CardType(self):
-    	x = Card()
-        self.assertEqual(type(x), Card, 'type')
+        x = Card()
+        self.assertEqual(type(x), Card, 'type check of Card')
 
     def test_CardSuit(self):
         x = Card()
